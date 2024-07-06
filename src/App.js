@@ -1,13 +1,10 @@
 import React from 'react'
-import './pages/Home'
-import Home from './pages/Home'
-import MovieCard from './components/MovieCard'
+import Header from './components/Header'
 
 const App = () => {
   return (
     <div>
-      <Home/>
-  
+      <Header />
     </div>
   )
 }
